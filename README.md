@@ -1,2 +1,2 @@
-# pingmesh-statusmap-panel
-pingmesh statusmap panel 
+# pingmesh-heatmap-panel
+pingmesh heatmap panel 
