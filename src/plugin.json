@@ -1,0 +1,28 @@
+{
+  "type": "panel",
+  "name": "Pingmesh",
+  "id": "pingmesh-heatmap-panel",
+
+  "info": {
+    "description": "Pingmesh Heatmap panel for grafana",
+    "author": {
+      "name": "dongjiang",
+      "url": "https://kubeservice.cn/top/about/"
+    },
+    "keywords": ["echarts", "panel"],
+    "logos": {
+      "small": "img/pingmesh_logo.svg",
+      "large": "img/pingmesh_logo.svg"
+    },
+    "links": [
+      {"name": "kubeservice", "url": "https://kubeservice.cn/"}
+    ],
+    "version": "1.0.0",
+    "updated": "2022-01-04"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "7.4",
+    "plugins": [ ]
+  }
+}
