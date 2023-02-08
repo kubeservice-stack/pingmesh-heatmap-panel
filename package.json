@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "lodash": "^4.0.0"
+  },
+  "scripts": {
+    "sign": "grafana-toolkit plugin:sign"
   }
 }
