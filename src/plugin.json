@@ -23,6 +23,7 @@
 
   "dependencies": {
     "grafanaVersion": "5.4",
+    "grafanaDependency": ">=5.0.0",
     "plugins": [ ]
   }
 }
