@@ -96,11 +96,10 @@ System.register(["app/plugins/sdk", "lodash", "app/core/utils/kbn", "app/core/ti
             },
             pingmesh: {
               instances: '',
-              delayValue: 0.001,
+              delayValue: 0.01,
               okStatusColor: 'green',
               delayStatusColor: 'yellow',
-              failStatusColor: 'red',
-              axisType: 'ServerIP'
+              failStatusColor: 'red'
             }
           };
 
@@ -125,7 +124,7 @@ System.register(["app/plugins/sdk", "lodash", "app/core/utils/kbn", "app/core/ti
           key: "onInitEditMode",
           value: function onInitEditMode() {
             // 初始化编辑模块
-            this.addEditorTab('Options', "public/plugins/beike-grafana-pingmesh-panel/editor.html", 2); // 配置选项页
+            this.addEditorTab('Options', "public/plugins/pingmesh-heatmap-panel/editor.html", 2); // 配置选项页
 
             this.unitFormats = kbn.getUnitFormats(); //从Grafana中获取内置单位选项
 

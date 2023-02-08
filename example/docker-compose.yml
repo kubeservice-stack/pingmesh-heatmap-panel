@@ -1,0 +1,17 @@
+version: '2'
+services:
+  grafana:
+    image: grafana/grafana:5.4.5
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    volumes:
+      - ./datasources:/etc/grafana/provisioning/datasources
+      - ./../dist:/var/lib/grafana/plugins/pingmesh-heatmap-panel
+      - grafana-data1:/var/lib/grafana
+    environment:
+      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: pingmesh-heatmap-panel
+      GF_PLUGINS_ENABLE_ALPHA: true
+      
+volumes:
+  grafana-data1:

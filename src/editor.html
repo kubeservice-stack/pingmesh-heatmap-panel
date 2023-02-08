@@ -25,7 +25,6 @@
             <span class="gf-form-label width-8">按时间聚合</span>
             <input type="text" class="gf-form-input width-12" ng-model="ctrl.panel.dateFormat" ng-change="ctrl.render()"
                 ng-model-onblur placeholder="YYYY-MM-DD HH:mm:ss">
-
         </div>
     </div>
 
@@ -76,16 +75,11 @@
                 ng-change="ctrl.render()"></spectrum-picker>
 
         </div>
-        <div class="gf-form">
-            <span class="gf-form-label width-20">坐标轴IP类型</span>
-            <select class="gf-form-input width-12" ng-model="ctrl.panel.pingmesh.axisType"
-                ng-options="t for t in ['ServerIP','GatewayIP']" ng-change="ctrl.changeAxisType()"></select>
-        </div>
     </div>
 
     <h5 class="section-heading">坐标轴IP列表</h5>
     <div class="gf-form">
         <textarea class="gf-form-input" ng-model="ctrl.panel.pingmesh.instances" rows="20" style="width:100%"
-            ng-change="ctrl.render()" ng-model-onblur placeholder="10.200.19.234,10.200.19.231"></textarea>
+            ng-change="ctrl.render()" ng-model-onblur placeholder="10.200.19.234,10.200.19.231,10.200.19.233"></textarea>
     </div>
 </div>

@@ -51,11 +51,10 @@ export class EChartsCtrl extends MetricsPanelCtrl {
             },
             pingmesh: {
                 instances: '',
-                delayValue: 0.001,
+                delayValue: 0.01,
                 okStatusColor: 'green',
                 delayStatusColor: 'yellow',
                 failStatusColor: 'red',
-                axisType: 'ServerIP'
             }
         };
 
@@ -71,7 +70,7 @@ export class EChartsCtrl extends MetricsPanelCtrl {
     }
 
     onInitEditMode() {  // 初始化编辑模块
-        this.addEditorTab('Options', "public/plugins/beike-grafana-pingmesh-panel/editor.html", 2);  // 配置选项页
+        this.addEditorTab('Options', "public/plugins/pingmesh-heatmap-panel/editor.html", 2);  // 配置选项页
         this.unitFormats = kbn.getUnitFormats();  //从Grafana中获取内置单位选项
         this.changeChartsType()
     }

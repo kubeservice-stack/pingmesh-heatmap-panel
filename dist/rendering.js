@@ -150,10 +150,12 @@ System.register(["lodash", "jquery", "jquery.flot", "jquery.flot.pie", "./echart
             return;
           }
 
-          tags[cur[0]] = cur[1];
+          var port = _.split(cur[1], ':');
+
+          tags[cur[0]] = port[0];
         });
 
-        var fromKey = 'from';
+        var fromKey = 'instance';
         var targetKey = 'target';
 
         if (!_.has(cache, tags[fromKey])) {
@@ -184,7 +186,7 @@ System.register(["lodash", "jquery", "jquery.flot", "jquery.flot.pie", "./echart
           } else if (_.has(cache, instances[i]) && _.has(cache[instances[i]], instances[j])) {
             seriesData.push({
               value: [i, j, cache[instances[i]][instances[j]]['value']] || '-',
-              url: 'http://' + cache[instances[i]][instances[j]]['tags']['from'] + ":9115/probe?module=ping&target=" + cache[instances[i]][instances[j]]['tags']['target']
+              url: 'http://' + cache[instances[i]][instances[j]]['tags']['instance'] + ":9115/probe?module=ping&target=" + cache[instances[i]][instances[j]]['tags']['target']
             });
           } else {
             seriesData.push({
@@ -221,7 +223,7 @@ System.register(["lodash", "jquery", "jquery.flot", "jquery.flot.pie", "./echart
             var targetInstance = '无';
 
             if (_.has(cache, fromKey) && _.has(cache[fromKey], targetKey)) {
-              fromInstance = cache[fromKey][targetKey]['tags']['from'];
+              fromInstance = cache[fromKey][targetKey]['tags']['instance'];
               fromInstance = fromInstance === undefined ? '无' : fromInstance;
               targetInstance = cache[fromKey][targetKey]['tags']['target'];
               targetInstance = targetInstance === undefined ? '无' : targetInstance;
