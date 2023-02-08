@@ -23,8 +23,7 @@
     "load-grunt-tasks": "^4.0.0"
   },
   "dependencies": {
-    "lodash": "^4.0.0",
-    "grafanaDependency": "^5.4.5"
+    "lodash": "^4.0.0"
   },
   "scripts": {
     "sign": "grafana-toolkit plugin:sign"
