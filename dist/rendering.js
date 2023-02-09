@@ -69,7 +69,7 @@ System.register(["lodash", "jquery", "jquery.flot", "jquery.flot.pie", "./echart
           value: value
         });
       });
-      $.get('public/plugins/beike-grafana-pingmesh-panel/echarts/datav-china.json', function (geoJson) {
+      $.get('plugins/pingmesh-heatmap-panel/echarts/datav-china.json', function (geoJson) {
         echartPanel.hideLoading();
         echarts.registerMap('china', geoJson);
         option = {

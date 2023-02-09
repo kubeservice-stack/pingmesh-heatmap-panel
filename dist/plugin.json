@@ -9,7 +9,7 @@
       "name": "dongjiang",
       "url": "https://kubeservice.cn/top/about/"
     },
-    "keywords": ["echarts", "panel"],
+    "keywords": ["echarts", "pingmesh", "panel"],
     "logos": {
       "small": "img/pingmesh_logo.svg",
       "large": "img/pingmesh_logo.svg"
@@ -17,12 +17,18 @@
     "links": [
       {"name": "kubeservice", "url": "https://kubeservice.cn/"}
     ],
-    "version": "1.0.0",
-    "updated": "2022-01-04"
+    "version": "1.0.1",
+    "updated": "2023-02-09",
+    "screenshots": [
+      {"name": "pingmesh-overview", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_1.png"},
+      {"name": "pingmesh-setting1", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_2.png"},
+      {"name": "pingmesh-setting2", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_3.png"}
+    ]
   },
 
   "dependencies": {
-    "grafanaVersion": "7.4",
+    "grafanaVersion": "5.4",
+    "grafanaDependency": ">=5.0.0",
     "plugins": [ ]
   }
 }
