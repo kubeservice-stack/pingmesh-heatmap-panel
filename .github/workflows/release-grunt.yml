@@ -34,8 +34,8 @@ jobs:
 
       - name: Sign plugin
         run: |
-          npx @grafana/sign-plugin
-          yarn sign
+          echo GRAFANA_API_KEY
+          yarn sign 
         if: ${{ env.GRAFANA_API_KEY != '' }}
 
       - name: Get plugin metadata
