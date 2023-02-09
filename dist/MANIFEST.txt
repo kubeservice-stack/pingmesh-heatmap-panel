@@ -1,0 +1,66 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "private",
+  "signedByOrg": "pingmesh",
+  "signedByOrgName": "pingmesh",
+  "rootUrls": [
+    "http://127.0.0.1:3000/"
+  ],
+  "plugin": "pingmesh-heatmap-panel",
+  "version": "1.0.1",
+  "time": 1675913958203,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "css/echarts.dark.css": "b2fcfcf87958a2ceb57eb50661ef4dc4e79338bedf9ebc02bd2d895f98b29fda",
+    "css/echarts.light.css": "e733e5dc00f2350d6e17bcf3e6d903b6c5586d05353e8d6cab652b637d5496dc",
+    "module.html": "9ea4491d2440421a1f160347b7feab6930eb37ec956f77c18c4bce34fc46aa19",
+    "echarts_ctrl.js.map": "ef82588e85a16bb368e612c983a740131649b2ebd1290c6f1045900b898353d3",
+    "editor.html": "8eacc077015f8c15b67021c931f059e812cd80024b631c75c8b4e9e79afba595",
+    "module.js.map": "a32a73d8825f1f1467f4ab015e346ea9e0239c048f03cc340e2b589b527d757f",
+    "rendering.js": "31bc26ee78a50e7061eef0f561783e03d722e69edcd540e15a09388bec4f5f54",
+    "plugin.json": "222907cb6bcabb4e1b99b141fbd7fdaf99b1608eff408aa5001a590b3ead1783",
+    "rendering.js.map": "81614227f4f130242b2865cbb003f341d6d9722b8fa9bf0ceafe1cd7ed2fe2c5",
+    "README.md": "c85bf1069cdf783355224723ed95aff15a9b8fe54e945825a4317f21dc66187a",
+    "img/pingmesh_screen_2.png": "a336f91fb68c42b911797bba8e646c2500ec5f8b8d1f6b0eb5c6c15c5754e08b",
+    "img/pingmesh_screen_3.png": "33b53ffae357177f9069929a372c46081addbd14aa8cef14dfdb25f33c82d3ef",
+    "img/pingmesh_screen_1.png": "93ce2bfd73a7d3d8edf2e7114267eb0544db5a929d8863f420f6296e9fcc9b71",
+    "img/pingmesh_logo.svg": "08eb3102e7f78f21e813a46ca2913dde66b6e4f42f359467b6e6cdc2d374f6b0",
+    "img/echarts_logo_large.png": "5251ce214aecee804f434b45c3f896fd733bdbd478432d63bb96ed471f32b284",
+    "img/echarts_logo_small.png": "5251ce214aecee804f434b45c3f896fd733bdbd478432d63bb96ed471f32b284",
+    "module.js": "1cdf28f945b618c0c9753f7c40763d60eefb678813ba3854363e0a12c50d5ff8",
+    "DEVELOPMENT.md": "eb62eec9c60727ba3ac81a4be0ae39633f97ca5117f4463bd114d69490189f9c",
+    "echarts/echarts-gl.min.js": "397b92806949702de3460f81c6083a0974dcea4a692f8020a53bc53970e0ff9f",
+    "echarts/datav-china.json": "2cd826c7fedfb6f1420899570728560cffde69cb97d2a295207cc0e797750bd2",
+    "echarts/world.js": "81fb963c0a057e73ecca32247162e2076224d9de3f60e628450e81ce1fe90e4e",
+    "echarts/dataTool.min.js": "422236dbffc16fad83b30d5ad6acef536d5b632b2be9f1543768f59ff2017d53",
+    "echarts/test.json": "33a4da82315ec5d5328f915b900bc2d1d81605dd74be67590203611a6ea0a74e",
+    "echarts/ecStat.min.js": "e7d554ace46ad8a77303662dbdb3da7ed76485d602e5e2b19e21a82ce8ebe856",
+    "echarts/china.js": "ab02c35430b1fde5a9b78ee86dafa7231afe923406518b59346597f25382576a",
+    "echarts/simplex.js": "764b1c35911f0dd9f52c3144f789c776178f47b698799b25b7a6fa3d7c9320d8",
+    "echarts/echarts.min.js": "af4b4e0b3e0c56360e4c50affe07fa34c54293335078b925d3d4b6614735b355",
+    "echarts/bmap.min.js": "91d12fd69314125c27f1a9fd278c644f99a6878d5e37207d2a83725646dc2aaa",
+    "echarts_ctrl.js": "c5a70ae60bd68e5177b042d72e1050a748a7260d60b0f116ebaf35489cdfc212",
+    "src/img/pingmesh_screen_2.png": "a336f91fb68c42b911797bba8e646c2500ec5f8b8d1f6b0eb5c6c15c5754e08b",
+    "src/img/pingmesh_screen_3.png": "33b53ffae357177f9069929a372c46081addbd14aa8cef14dfdb25f33c82d3ef",
+    "src/img/pingmesh_screen_1.png": "93ce2bfd73a7d3d8edf2e7114267eb0544db5a929d8863f420f6296e9fcc9b71",
+    "src/img/pingmesh_logo.svg": "08eb3102e7f78f21e813a46ca2913dde66b6e4f42f359467b6e6cdc2d374f6b0",
+    "src/img/echarts_logo_large.png": "5251ce214aecee804f434b45c3f896fd733bdbd478432d63bb96ed471f32b284",
+    "src/img/echarts_logo_small.png": "5251ce214aecee804f434b45c3f896fd733bdbd478432d63bb96ed471f32b284"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmPkauYAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm5x1+AgkB0w54S8TawIGVCjLRAuPr9LnHfCZVpbO+hWEfgh5gdX020JEG
+rmmXixoKhOrHLJ3IDA3Na3bVeEAFi3iWzvLsUZ8CCQHo7AET5PYGmowckLdj
+/O68vk5whXB2ziCBXuLxhnTIre8ryrLZSa7/HrUbT/yGmVl6nUrqNWi1vYwJ
+BMVEaS68aQ==
+=qp1A
+-----END PGP SIGNATURE-----
