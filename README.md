@@ -27,4 +27,4 @@ sudo service grafana-server restart
 ![avatar](https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_3.png)
 
 ## 开发者
-[开发者](DEVELOPMENT.md)
+[开发者](https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/DEVELOPMENT.md)
