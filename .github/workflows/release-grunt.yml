@@ -33,7 +33,9 @@ jobs:
         if: ${{ env.GRAFANA_API_KEY == '' }}
 
       - name: Sign plugin
-        run: yarn sign
+        run: |
+          echo GRAFANA_API_KEY
+          yarn sign 
         if: ${{ env.GRAFANA_API_KEY != '' }}
 
       - name: Get plugin metadata
