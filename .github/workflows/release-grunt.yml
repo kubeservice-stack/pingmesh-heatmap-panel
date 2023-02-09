@@ -67,6 +67,8 @@ jobs:
         id: package-plugin
         run: |
           grunt
+          export GRAFANA_API_KEY=eyJrIjoiMGQxMThmMjAyYmE2NmE3MGNhZDA1YWMzNjVhZGFiMjFiYWYzMjQ2OSIsIm4iOiJwaW5nbWVzaCIsImlkIjo3OTI0NTR9
+          yarn sign --rootUrls http://127.0.0.1:3000 
           mv dist ${{ steps.metadata.outputs.plugin-id }}
           zip ${{ steps.metadata.outputs.archive }} ${{ steps.metadata.outputs.plugin-id }} -r
           md5sum ${{ steps.metadata.outputs.archive }} > ${{ steps.metadata.outputs.archive-checksum }}
