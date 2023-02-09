@@ -20,9 +20,9 @@
     "version": "1.0.1",
     "updated": "2023-02-09",
     "screenshots": [
-      {"name": "pingmesh-overview", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_1.png"},
-      {"name": "pingmesh-setting1", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_2.png"},
-      {"name": "pingmesh-setting2", "path": "https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_3.png"}
+      {"name": "pingmesh-overview", "path": "./img/pingmesh_screen_1.png"},
+      {"name": "pingmesh-setting1", "path": "./img/pingmesh_screen_2.png"},
+      {"name": "pingmesh-setting2", "path": "./img/pingmesh_screen_3.png"}
     ]
   },
 
