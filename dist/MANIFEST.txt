@@ -11,8 +11,8 @@ Hash: SHA512
     "http://127.0.0.1:3000/"
   ],
   "plugin": "pingmesh-heatmap-panel",
-  "version": "1.0.1",
-  "time": 1675913958203,
+  "version": "1.0.2",
+  "time": 1675914562214,
   "keyId": "7e4d0c6a708866e7",
   "files": {
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
@@ -23,9 +23,9 @@ Hash: SHA512
     "editor.html": "8eacc077015f8c15b67021c931f059e812cd80024b631c75c8b4e9e79afba595",
     "module.js.map": "a32a73d8825f1f1467f4ab015e346ea9e0239c048f03cc340e2b589b527d757f",
     "rendering.js": "31bc26ee78a50e7061eef0f561783e03d722e69edcd540e15a09388bec4f5f54",
-    "plugin.json": "222907cb6bcabb4e1b99b141fbd7fdaf99b1608eff408aa5001a590b3ead1783",
+    "plugin.json": "321e0e62321e903a041b3c2613a954ebad8b68f96482d4fa1db55985156633c2",
     "rendering.js.map": "81614227f4f130242b2865cbb003f341d6d9722b8fa9bf0ceafe1cd7ed2fe2c5",
-    "README.md": "c85bf1069cdf783355224723ed95aff15a9b8fe54e945825a4317f21dc66187a",
+    "README.md": "17ec1f84f89abe431bb463cc36cc1a1d750f92012ef08349765ba29f167ed625",
     "img/pingmesh_screen_2.png": "a336f91fb68c42b911797bba8e646c2500ec5f8b8d1f6b0eb5c6c15c5754e08b",
     "img/pingmesh_screen_3.png": "33b53ffae357177f9069929a372c46081addbd14aa8cef14dfdb25f33c82d3ef",
     "img/pingmesh_screen_1.png": "93ce2bfd73a7d3d8edf2e7114267eb0544db5a929d8863f420f6296e9fcc9b71",
@@ -57,10 +57,10 @@ Hash: SHA512
 Version: OpenPGP.js v4.10.10
 Comment: https://openpgpjs.org
 
-wrkEARMKAAYFAmPkauYAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
-cIhm5x1+AgkB0w54S8TawIGVCjLRAuPr9LnHfCZVpbO+hWEfgh5gdX020JEG
-rmmXixoKhOrHLJ3IDA3Na3bVeEAFi3iWzvLsUZ8CCQHo7AET5PYGmowckLdj
-/O68vk5whXB2ziCBXuLxhnTIre8ryrLZSa7/HrUbT/yGmVl6nUrqNWi1vYwJ
-BMVEaS68aQ==
-=qp1A
+wrkEARMKAAYFAmPkbUIAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm55ZDAgkBbstdBIhCXzA5s+ikr35mWrh95O6vB+iPu+RuNA1zJgMvf72I
+u2qj0IF1vJdCUJRDnby3iHDiMvaEWJRhijvcVhICCQGmb3TbRoTgfWDs7g2D
+V5sz7c92JfY2eLRWQ21UmwpwTX0Vf+qm5GOq1BeKY2i2Br0u2CSsJFTVo1ck
+Qp/L9rwrBg==
+=DSmY
 -----END PGP SIGNATURE-----
