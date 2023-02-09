@@ -33,7 +33,7 @@ jobs:
         if: ${{ env.GRAFANA_API_KEY == '' }}
 
       - name: Sign plugin
-        run: ｜
+        run: |
           npx @grafana/sign-plugin
           yarn sign
         if: ${{ env.GRAFANA_API_KEY != '' }}
