@@ -2,6 +2,8 @@ name: Release
 
 on:
   push:
+    branches:
+      - master
     tags:
       - 'v*' # Run workflow on version tags, e.g. v1.0.0.
 
@@ -69,7 +71,15 @@ jobs:
           zip ${{ steps.metadata.outputs.archive }} ${{ steps.metadata.outputs.plugin-id }} -r
           md5sum ${{ steps.metadata.outputs.archive }} > ${{ steps.metadata.outputs.archive-checksum }}
           echo "checksum=$(cat ./${{ steps.metadata.outputs.archive-checksum }} | cut -d' ' -f1)" >> $GITHUB_OUTPUT
-
+     
+      - name: Lint plugin
+        run: |
+          git clone https://github.com/grafana/plugin-validator
+          pushd ./plugin-validator/pkg/cmd/plugincheck
+          go install
+          popd
+          plugincheck ${{ steps.metadata.outputs.archive }}
+  
       - name: Create Github release
         uses: softprops/action-gh-release@v1
         with:
