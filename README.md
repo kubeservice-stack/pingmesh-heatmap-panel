@@ -29,5 +29,31 @@ sudo service grafana-server restart
 ### 展示效果调整
 ![avatar](https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/src/img/pingmesh_screen_3.png)
 
+
+## 常见问题
+### 错误诊断
+查看`grafana` 日志
+
+在 `mac` 日志目录是 `/usr/local/var/log/grafana`
+
+在 `linux` 日志目录是` /var/log/grafana`
+
+- /var/lib/grafana/plugins/pingmesh-heatmap-panel/*: permission denied , 需要授予插件目录下执行权限:
+- 
+```bash
+$ chmod 777 /var/lib/grafana/plugins/pingmesh-heatmap-panel/
+```
+### grafana > 7.0
+参考 [Backend plugins: Unsigned external plugins should not be loaded by default #24027](https://github.com/grafana/grafana/issues/24027)
+修改grafana配置文件
+在mac上一般为 `/usr/local/etc/grafana/grafana.ini`
+
+在linux上一般为 `/etc/grafana/grafana.ini`
+
+在`[plugins]`标签下设置参数
+```
+allow_loading_unsigned_plugins = pingmesh-heatmap-panel
+```
+
 ## 开发者
 [开发者](https://raw.githubusercontent.com/kubeservice-stack/pingmesh-heatmap-panel/master/DEVELOPMENT.md)
