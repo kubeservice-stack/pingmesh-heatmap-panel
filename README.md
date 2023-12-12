@@ -10,11 +10,14 @@ grunt
 ```
 
 ## 安装
-```sh
+```bash
 cd /var/lib/grafana/plugins
 git clone https://github.com/kubeservice-stack/pingmesh-heatmap-panel.git
 sudo service grafana-server restart
 ```
+
+## 使用方式
+[Grafana Panel Plugin: Pingmesh Heatmap Panel](https://www.kubeservice.cn/2023/02/09/devops-grafana-pingmesh-heatmap-panel/)
 
 ## 效果截图
 ### 效果图
